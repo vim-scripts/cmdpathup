@@ -1,0 +1,16 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4065
+
+This plugin provides a hotkey to go up by one level
+when editing a file path on the vim command line.
+
+Suppose you edit a file system path in the command line
+where | represents the position of the cursor
+
+:e ~/foo/bar/foo-bar/|barbar
+
+Then pressing the plugin hotkey will result in
+
+:e ~/foo/bar/|barbar
+
+In contrast you would have to press <c-w> four times to
+delete '/', 'bar', '-', and 'for' one by one.
